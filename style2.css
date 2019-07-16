@@ -1,0 +1,63 @@
+body {
+  background-color: #e1f7e3;
+  background-image: url("data:image/svg+xml,%3Csvg width='84' height='48' viewBox='0 0 84 48' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M0 0h12v6H0V0zm28 8h12v6H28V8zm14-8h12v6H42V0zm14 0h12v6H56V0zm0 8h12v6H56V8zM42 8h12v6H42V8zm0 16h12v6H42v-6zm14-8h12v6H56v-6zm14 0h12v6H70v-6zm0-16h12v6H70V0zM28 32h12v6H28v-6zM14 16h12v6H14v-6zM0 24h12v6H0v-6zm0 8h12v6H0v-6zm14 0h12v6H14v-6zm14 8h12v6H28v-6zm-14 0h12v6H14v-6zm28 0h12v6H42v-6zm14-8h12v6H56v-6zm0-8h12v6H56v-6zm14 8h12v6H70v-6zm0 8h12v6H70v-6zM14 24h12v6H14v-6zm14-8h12v6H28v-6zM14 8h12v6H14V8zM0 8h12v6H0V8z' fill='%2343db54' fill-opacity='0.4' fill-rule='evenodd'/%3E%3C/svg%3E");
+  font-family: 'Open Sans', sans-serif;
+}
+.login {
+  width: 250px;
+  margin: 100px auto;
+  font-size: 16px;
+  
+}
+/* Reset top and bottom margins from certain elements */
+.login-header,
+.login p {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+.login-header {
+  background: #32CD32;
+  padding: 10px;
+  font-size: 1.2em;
+  font-weight: normal;
+  text-align: center;
+  color: #fff;
+  font-family: inherit;
+}
+.login-container {
+  background: #ebebeb;
+  padding: 5px;
+}
+/* Every row inside .login-container is defined with p tags */
+.login p {
+  padding: 5px;
+}
+.login input {
+  box-sizing: border-box;
+  display: block;
+  width: 100%;
+  border-width: 1px;
+  border-style: solid;
+  padding: 10px;
+  outline: 0;
+  font-family: inherit;
+  font-size: 0.95em;
+}
+.login input[type="text"],
+.login input[type="password"] {
+  background: #fff;
+  border-color: #bbb;
+  color: #555;
+}
+/* Text fields' focus effect */
+.login input[type="text"]:focus,
+.login input[type="password"]:focus {
+  border-color: #888;
+}
+.login input[type="submit"] {
+  background: #32CD32;
+  border-color: transparent;
+  color: #fff;
+  cursor: pointer;
+}
+
